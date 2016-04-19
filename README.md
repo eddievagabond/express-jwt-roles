@@ -12,9 +12,6 @@ This module checks against the request user decoded by express-jwt.
 const roles   = require('../middleware');
 const router  = express.Router();
 
-// single check - all routes
-
-
 // single check - single route
 router.get('/user', roles('admin'),  (req, res, next) =>  {
     // if the jwt has admin in roles, this will hit
