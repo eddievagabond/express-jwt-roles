@@ -1,0 +1,16 @@
+{
+  "name": "express-jwt-roles",
+  "version": "0.1.0",
+  "description": "Express role middleware for use with express-jwt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "roles",
+    "jwt"
+  ],
+  "author": "Eddie Rozum",
+  "license": "MIT"
+}
